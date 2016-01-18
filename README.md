@@ -1,2 +1,2 @@
-# advanced2015
+# Advanced2015
 NAIST lecture of dependency parsing
