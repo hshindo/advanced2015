@@ -71,7 +71,7 @@ class CollinsParser:
         # calculate score based on arc-factored model
         return head.score + dep.score + score
 
-    """ Find the highest-scored span [i, j] """
+    """ Find the highest-scored span [i, j, h] from [i, j] """
     def find_best(self, i, j):
         best_span = None
         for h in xrange(i, j):

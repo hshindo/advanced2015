@@ -26,6 +26,6 @@ class CollinsParser:
     def get_score(self, words, head, dep):
         None
 
-    """ Find the highest-scored span [i, j] """
+    """ Find the highest-scored span [i, j, h] from [i, j] """
     def find_best(self, i, j):
         None
