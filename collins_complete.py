@@ -35,7 +35,7 @@ class CollinsParser:
                             score = self.get_score(words, span_r, span_l)
                             span = CollinsSpan(i, j, h_r, score)
                             self.add_span(span)
-        bset = self.find_best(0, len(words))
+        best = self.find_best(0, len(words))
         return best
 
     def init_spans(self, words):
